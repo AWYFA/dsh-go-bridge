@@ -1,7 +1,6 @@
 {
   "name": "dsh-go-bridge",
   "version": "0.1.0",
-  "private": true,
   "type": "module",
   "description": "Open a stable local bridge so dsh-go can attach to the running DSH desktop app over SSH.",
   "license": "MIT",
@@ -35,6 +34,17 @@
       "immediately": true,
       "inject": []
     }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AWYFA/dsh-go-bridge.git"
+  },
+  "homepage": "https://github.com/AWYFA/dsh-go-bridge#readme",
+  "bugs": {
+    "url": "https://github.com/AWYFA/dsh-go-bridge/issues"
+  },
+  "engines": {
+    "node": ">=22"
   },
   "keywords": [
     "dsh",

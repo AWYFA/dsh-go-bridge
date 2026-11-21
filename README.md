@@ -23,11 +23,20 @@ dsh-go ──SSH tunnel──▶ 127.0.0.1:8790 ──bridge──▶ 当前 DSH
 
 ## 安装
 
-把本目录交给 DSH 安装，例如：
+三选一，装完重启 DSH：
 
 ```text
+# 从 GitHub 装（推荐）
+dsh plugin --profile <你的 profile> add https://github.com/AWYFA/dsh-go-bridge
+
+# 或从本地目录装
+dsh plugin --profile <你的 profile> add D:\path\to\dsh-go-bridge
+
+# 或在 DSH 里用插件管理器指向该目录
 plugin_manager install_bundle target: D:\path\to\dsh-go-bridge
 ```
+
+`<你的 profile>` 一般是 `web` 或 `desktop`，按你实际在用的那个填。
 
 安装后插件会自动监听 `127.0.0.1:8790`。如果没起来，在插件管理里禁用再启用一次，或重启 DSH。
 
