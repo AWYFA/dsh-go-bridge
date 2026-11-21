@@ -1,0 +1,5 @@
+- insert:
+    - id: dsh-go-bridge
+      name: 'dsh-go-bridge'
+      config:
+        port: 8790

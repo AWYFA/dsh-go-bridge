@@ -1,0 +1,6 @@
+{
+  "meta": {
+    "title": "dsh-go bridge",
+    "description": "A stable loopback port that lets dsh-go attach to the running DSH desktop app over SSH."
+  }
+}

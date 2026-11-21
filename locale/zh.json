@@ -1,0 +1,6 @@
+{
+  "meta": {
+    "title": "dsh-go 桥",
+    "description": "给 dsh-go 的 SSH「只连接」模式提供一个稳定的本机端口，用来连接正在运行的 DSH 桌面版。"
+  }
+}
